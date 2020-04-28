@@ -12,7 +12,7 @@ def main():
     driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,
                               options=options
                               )
-    driver.get("https://google.com.br")
+    driver.get("https://google.com.br/teste")
     print(driver.title)
     driver.close()
 
